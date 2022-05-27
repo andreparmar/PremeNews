@@ -5,7 +5,14 @@
 .title-section {
     font-size: 36px;
     font-weight: 700;
-    line-height: 45px
+    line-height: 45px;
+    padding-top: 100px;
+}
+
+.title-app {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 45px;
 }
 
 .text-context {
@@ -106,4 +113,49 @@
 .content-contain {
     padding-top: 68px;
     padding-bottom: 68px;
+}
+
+.cl {
+    height: 4px;
+    width: 100%;
+    background: linear-gradient(90deg, #ED9DF1 0%, #4B78F8 50%, #F1CA9D 100%);
+}
+
+.row-ft {
+    padding-top: 75px;
+}
+
+.card-ft {
+ border-radius: 7px;
+ height: 555px;
+ width: 388.6px;
+ border: 4px solid rgba(180, 237, 231, 0.65);
+box-shadow: 0px 6px 15px 2px rgba(0, 0, 0, 0.16);
+}
+
+.card-list {
+    list-style: none;
+    list-style-type: none;
+    padding: 0;
+}
+
+.title-card {
+    font-weight: 700;
+    font-size: 28px;
+    color: #A78FFF;
+}
+
+.logo-partner {
+    width: 100px;
+    height: 100px;
+    border-radius: 25px;
+    opacity: .7;
+}
+.contain-partner {
+    padding-top: 35px;
+}
+
+.logo-partner:hover {
+    opacity: 1;
+    filter: drop-shadow(-3px 6px 7px rgba(0, 0, 0, 0.16));
 }
