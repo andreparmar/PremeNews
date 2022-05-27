@@ -2,6 +2,19 @@
     font-family: 'Mulish', sans-serif;
 }
 
+.title-section {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 45px
+}
+
+.text-context {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+
 .img-thumbnail {
     background: transparent;
     border: none;
@@ -83,4 +96,14 @@
     background: #A78FFF;
     box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.15);
     border-radius: 7px;
+}
+
+#app {
+    background: rgba(243, 244, 246, 0.8);
+    box-shadow: inset 0px 3px 9px rgba(0, 0, 0, 0.08);
+}
+
+.content-contain {
+    padding-top: 68px;
+    padding-bottom: 68px;
 }
